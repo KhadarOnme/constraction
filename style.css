@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* color: white; */
+    padding-top: 10px;
+    height: 65px;
+}
+.c{
+    color: orange;
+}
+.cargo{
+    color: orange;
+
+}
+.header h5{
+    margin-left: 25px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1em;
+}
+.register{
+    background-color: orange;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.main{
+    background-image: linear-gradient(to bottom,rgba(16, 20, 43, 0.822),rgba(18, 12, 48, 0.4)),url(pexels-chanaka-318741-906484.jpg);
+    width: 100%;
+    height: 533px;
+    background-size: cover;
+    background-position: center;
+}
