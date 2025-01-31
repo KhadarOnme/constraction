@@ -38,9 +38,252 @@ ul{
 }
 
 .main{
-    background-image: linear-gradient(to bottom,rgba(16, 20, 43, 0.822),rgba(18, 12, 48, 0.4)),url(pexels-chanaka-318741-906484.jpg);
+    background-image: linear-gradient(to bottom,rgba(17, 17, 17, 0.8),rgba(12, 12, 12, 0.8)),url(pexels-quintingellar-2199293.jpg);
     width: 100%;
     height: 533px;
     background-size: cover;
     background-position: center;
 }
+
+/* about us */
+
+.sectionTwo{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(pexels-chanaka-318741-906484.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 533px;
+
+}
+.image{
+    width: 30%;
+    
+}
+.image img{
+    width: 350px;
+    height: 75%;
+    border-radius: 50%;
+    border: 2px solid orange;
+    padding: 10px;
+    margin-top: 50px;
+    
+
+}
+.text{
+    width: 45%;
+    margin-top: 50px;
+    color: white;
+}
+.text h1{
+    width: 80%;
+    font-size: 2.6em;
+}
+.need{
+    color: orange;
+    font-weight: 600;
+}
+.text p{
+    color: gray;
+    width: 80%;
+    margin-top: 15px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.icon{
+    color: orange;
+    
+}
+
+.contact{
+    background-color: orange;
+    padding: 10px 28px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/* section three*/
+.sectionThree{
+    display: flex;
+    justify-content: space-around;
+}
+.qoral{
+    width: 30%;
+    margin-top: 40px;
+}
+.qoral h5{
+    color: orange;
+}
+.touch{
+    color: orange;
+}
+.qoral h1{
+    margin-top: 10px;
+    font-size: 3em;
+}
+.qoral p{
+    color: grey;
+    width: 80%;
+}
+.phones{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+   
+}
+.icone{
+    color: orange;
+    
+}
+
+
+.p{
+    font-size: 12px;
+    margin-left: 20px;
+
+}
+.form{
+    width: 30%;
+    margin-top: 60px;
+
+}
+#name{
+    border: 1px solid orange;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+#email{
+    border: 1px solid orange;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+#subject{
+    border: 1px solid orange;
+    padding: 6px 117px;
+    border-radius: 5px;
+}
+#message{
+    border: 1px solid orange;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: orange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: midnightblue;
+    height: 290px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    width: 30%;
+
+}
+.foot1 h1{
+    color: white;
+    font-size: 2.5em;
+}
+.C{
+    color: orange;
+}
+.foot1 h5{
+    color: gainsboro;
+    margin-left: 20px;
+}
+.car{
+    color: orange;
+
+}
+.foot1 p{
+    color: gray;
+    font-size: 15px;
+    width: 80%;
+    margin-top: 7px;
+}
+.media i{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 1.4em;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.foot2 h2{
+    color: gainsboro;
+    font-size: 1.8em;
+
+}
+.foot2 p{
+    color: gray;
+    padding: 10px;
+}
+.foot2 i{
+    background-color: orange;
+    border-radius: 50%;
+    color: black;
+}
+.foot3 h2{
+    color: gainsboro;
+    font-size: 1.8em;
+
+}
+.foot3 p{
+    color: gray;
+    padding: 10px;
+}
+.foot3 i{
+    background-color: orange;
+    border-radius: 50%;
+    color: black;
+}
+
+.foot4 h2{
+    color: gainsboro;
+    font-size: 1.8em;
+    padding: 10px;
+}
+.foot4 h3{
+    color: white;
+}
+.fa{
+    color: orange;
+    font-size: 1em;
+}
+.foot h4{
+    color: orange;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+footer h6{
+    color: gray;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+
